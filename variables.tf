@@ -151,8 +151,8 @@ variable "instance" {
   type        = "map"
   description = "EC2 instance host settings"
   default = {
-    domain   = "capgroup.com"
-    hostname = "wynn-chef1"
+    domain   = "localdomain"
+    hostname = "localhost"
   }
 }
 variable "instance_flavor" {
